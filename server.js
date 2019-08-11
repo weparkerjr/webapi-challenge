@@ -11,7 +11,7 @@ const peopleArr = [
     { id: 2, name: "Han" },
     { id: 3, name: "Leia" },
     { id: 4, name: "Darth" },
-    { id: 5, name: "Palpatine" },
+    { id: 5, name: "Palpatine"},
     { id: 6, name: "Indiana" }
   ];
   
