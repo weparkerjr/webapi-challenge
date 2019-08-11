@@ -1,7 +1,7 @@
 # Sprint Challenge: Express and Node.js - Home Chores
 
 ## Description
-
+ 
 In this challenge, create a web API to manage the following resources: `People` and `Chores`.
 
 ## Instructions
