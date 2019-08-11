@@ -92,6 +92,19 @@ server.delete("/:id", (req, res) => {
     res.status(201).json(chores);
   });
 
+  // QUERY FROM DATABASE
+server.get("/", (req, res) => {
+    const completed = req.query.completed;
+  
+    if (completed) {
+      const filtered = completed === "true" ? true : false;
+      const result = chores.filter(chore => chore.completed == filtered);
+      res.status(200).json(result);
+    } else {
+      res.status(200).json(chores);
+    }
+  });
+
 
   
 
